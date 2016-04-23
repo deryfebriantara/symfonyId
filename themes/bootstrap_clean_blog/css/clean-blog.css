@@ -25,12 +25,39 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+.thumbnail-tutorial {
+    display: block;
+    padding: 4px;
+    /* margin-bottom: 20px; */
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.captionss {
+    text-align: center;
+    font-size: 14px;
+    /* padding: 10px; */
+    font-style: italic;
+    margin: 0;
+    display: block;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 a {
   color: #404040;
 }
 a:hover,
 a:focus {
   color: #0085a1;
+  text-decoration:none;
+}
+.left{
+margin-left:15%;
 }
 a img:hover,
 a img:focus {
